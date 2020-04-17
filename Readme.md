@@ -1,6 +1,6 @@
 # COVID RESISTANCE APPLICATION
 
-1. Bluetooth Framework Proof of Concept
+1. Bluetooth Framework Proof of Concept (PoC)
 2. Mobile Platform Application
 3. Cloud Platform Microservices
 
@@ -38,4 +38,4 @@ The config of bluetooth service and shared data is define in com.epam.crowdresit
 
 ### License Information
 
-Licensed under Apache 2.0, [LICENSE](https://github.com/company/repo/blob/master/LICENSE)
+Licensed under Apache 2.0, [LICENSE](https://github.com/epam/CovidResistance/blob/master/LICENSE)
