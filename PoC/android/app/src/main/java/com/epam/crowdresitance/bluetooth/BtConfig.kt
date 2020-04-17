@@ -27,7 +27,7 @@ import kotlin.math.absoluteValue
  * This companion object stores uuids for service and characteristic
  * additionally it generates identifier of the user
  * TODO change for your own implementation
-*/
+ */
 class BtConfig {
     companion object {
         val SERVICE_UUID: ParcelUuid = ParcelUuid
@@ -48,16 +48,15 @@ class BtConfig {
                     + Build.MODEL.length % 10
                     + Build.PRODUCT.length % 10)
 
-            val androidId = try {
+            val androidId =
                 Settings.Secure.getString(
                     context.contentResolver,
-                    Settings.Secure.ANDROID_ID
-                )
-            } catch (e: Exception) {
-                "EPAM"
-            }
+                    Settings.Secure.ANDROID_ID)
+
             val uuid = UUID(devIDShort.hashCode().toLong(), androidId.hashCode().toLong())
-            userId = uuid.leastSignificantBits.xor(uuid.mostSignificantBits).absoluteValue.toString().toByteArray()
+            userId =
+                uuid.leastSignificantBits.xor(uuid.mostSignificantBits).absoluteValue.toString()
+                    .toByteArray()
         }
 
         fun userIdData() = userId
