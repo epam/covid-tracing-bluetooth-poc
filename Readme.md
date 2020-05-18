@@ -1,8 +1,4 @@
-# COVID RESISTANCE APPLICATION
-
-1. Bluetooth Framework Proof of Concept (PoC)
-2. Mobile Platform Application
-3. Cloud Platform Microservices
+# COVID RESISTANCE BLUETOOTH POC
 
 The goal of this project is to confirm that Bluetooth technology on both Android and iOS can be used for tracing solutions. In order to verify that, the following features were put in scope:
 
