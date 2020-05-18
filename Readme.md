@@ -15,7 +15,7 @@ Other things were checked in this PoC:
 ### Cloning Instruction 
 
 ```
-git clone https://github.com/epam/covidresistance
+git clone https://github.com/epam/covid-tracing-bluetooth-poc
 ```
 
 ### Description per platform
